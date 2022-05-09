@@ -6,8 +6,8 @@
 ## Нормализация данных
 Данные были нормализованы методом TPM, обычный метод TPM задается следующей формулой
 
-<img src="https://render.githubusercontent.com/render/math?math={TPM_i = \frac{q_i / l_i}{\sum (q_j / l_j)} \cdot 10^6}#gh-light-mode-only">
-<img src="https://render.githubusercontent.com/render/math?math={\color{white}TPM_i = \frac{q_i / l_i}{\sum (q_j / l_j)} \cdot 10^6}#gh-dark-mode-only">
+<img src="https://render.githubusercontent.com/render/math?math={\LARGE TPM_i = \frac{q_i / l_i}{\sum (q_j / l_j)} \cdot 10^6}#gh-light-mode-only">
+<img src="https://render.githubusercontent.com/render/math?math={\LARGE \color{white}TPM_i = \frac{q_i / l_i}{\sum (q_j / l_j)} \cdot 10^6}#gh-dark-mode-only">
 
 Где <img src="https://render.githubusercontent.com/render/math?math={q_i}#gh-light-mode-only"> <img src="https://render.githubusercontent.com/render/math?math={\color{white} q_i}#gh-dark-mode-only"> - риды попавшие на транскрипцию, а <img src="https://render.githubusercontent.com/render/math?math={l_i}#gh-light-mode-only"> <img src="https://render.githubusercontent.com/render/math?math={\color{white} l_i}#gh-dark-mode-only"> - длина транскрипции, однако нам длина неизвестна, так что мы будем использовать следующую формулу
 
